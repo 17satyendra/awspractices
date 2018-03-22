@@ -5,7 +5,6 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 
 public class LambdaFunctionHandler implements RequestHandler<String, String> 
 {
-
     @Override
     public String handleRequest(String input, Context context) 
     {
